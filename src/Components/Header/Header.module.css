@@ -1,3 +1,33 @@
 .header{
+    position: sticky;
+    z-index: 999;
+    top: -10px;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    width: 95%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 8px 75px;
+}
+
+.lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+}
+.lists a{
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 40px;
+}
+.logo{
+    height: 75px;
 }

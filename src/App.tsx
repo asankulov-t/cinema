@@ -3,9 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import {fetchToken} from "./Store/GetTokenSlice";
 import {useDispatch, useSelector } from 'react-redux';
-import Movies from "./Components/Movies";
 import {RootState} from "./Store/Store";
 import Header from "./Components/Header/Header";
+import Movies from "./Components/Movies/Movies";
 
 function App() {
   let disp=useDispatch();

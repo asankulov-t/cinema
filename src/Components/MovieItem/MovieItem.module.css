@@ -1,0 +1,25 @@
+
+.item{
+    position: relative;
+    height: 500px;
+    color: #fffdfc;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.image{
+    border-radius: 20px;
+    height: 470px;
+    width: 350px;
+}
+.titleWrapper{
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    bottom:25px;
+    width: 350px;
+    height: 70px;
+    background-color: #1b2a4f;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

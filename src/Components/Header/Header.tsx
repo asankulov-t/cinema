@@ -4,10 +4,9 @@ const Header = () => {
     return (
         <header className={style.header}>
             <a href="#">
-                <img src="https://broadway.kg/image/logo.gif" alt="logo"/>
+                <img className={style.logo} src="https://broadway.kg/image/logo.gif" alt="logo"/>
             </a>
-            <ul>
-                <li><a href="#">Афиша</a></li>
+            <ul className={style.lists}>
                 <li><a href="#">Сеансы</a></li>
                 <li><a href="#">Скоро в кино</a></li>
                 <li><a href="#">Акции и скидки</a></li>

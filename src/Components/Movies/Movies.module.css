@@ -1,0 +1,17 @@
+.container{
+    align-items: center;
+    margin: 0 auto;
+    padding: 8px 50px;
+}
+
+.title{
+    margin-top: 50px;
+    margin-left: 22px;
+    color: #192f3a;
+    font-size: 35px;
+    font-weight: bold;
+}
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+}
