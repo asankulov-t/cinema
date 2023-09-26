@@ -37,7 +37,7 @@ type tymesType={
     getSessionPricesResponse:getSessionPricesResponseType
 }
 
-type movieType={
+export type movieType={
     filmId:string,
     filmName:string,
     age:number,

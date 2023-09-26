@@ -6,6 +6,7 @@ import {useDispatch, useSelector } from 'react-redux';
 import {RootState} from "./Store/Store";
 import Header from "./Components/Header/Header";
 import Movies from "./Components/Movies/Movies";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   let disp=useDispatch();
@@ -19,8 +20,12 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <Movies token={token+''}/>
+        <BrowserRouter>
+            <Header/>
+            <Routes>
+                <Route path={'/repertuar'} element={<Movies token={token+''}/>}/>
+            </Routes>
+        </BrowserRouter>
     </div>
   );
 }

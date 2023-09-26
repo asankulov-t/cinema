@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Header.module.css'
+import {Link} from "react-router-dom";
 const Header = () => {
     return (
         <header className={style.header}>
@@ -7,10 +8,10 @@ const Header = () => {
                 <img className={style.logo} src="https://broadway.kg/image/logo.gif" alt="logo"/>
             </a>
             <ul className={style.lists}>
-                <li><a href="#">Сеансы</a></li>
-                <li><a href="#">Скоро в кино</a></li>
-                <li><a href="#">Акции и скидки</a></li>
-                <li><a href="#">О кинотеатре</a></li>
+                <li><Link to="/repertuar">Сеансы</Link></li>
+                <li><Link to="/soon">Скоро в кино</Link></li>
+                <li><Link to="/discounts">Акции и скидки</Link></li>
+                <li><Link to="/about">О кинотеатре</Link></li>
             </ul>
         </header>
     );
