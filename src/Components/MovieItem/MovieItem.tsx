@@ -40,6 +40,7 @@ type tymesType={
 type movieType={
     filmId:string,
     filmName:string,
+    age:number,
     picture:pictureType,
     times:Array<tymesType>,
 }
@@ -49,6 +50,9 @@ const MovieItem = (props:movieType) => {
     return (
     <div>
         <div className={styles.item}>
+            <div className={props.age==18?styles.red:styles.green}>
+                <span>{props.age}+</span>
+            </div>
             <img className={styles.image} src={'https://api.broadway.kg/files/'+props.picture.fileName+props.picture.fileExt}
                  alt=""/>
             <div className={styles.titleWrapper}>

@@ -28,7 +28,7 @@ const Movies = (props: moviesType) => {
                      filmName={it.filmName}
                      picture={it.picture}
                      times={it.times}
-
+                    age={it.age}
 
                  />)}
          </div>
