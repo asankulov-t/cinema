@@ -31,7 +31,6 @@ export const APIREQUESTS={
                 'Content-Type':'application/json',
             },
         })
-        console.log('token '+token)
         let today=new Date().toLocaleDateString('ro-Ro')
         let days=[today,today]
         let dates={
