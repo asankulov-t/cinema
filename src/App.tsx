@@ -10,6 +10,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Sessions from "./Components/Sessions/Sessions";
 import Discount from "./Components/Discount/Discount";
 import About from "./Components/About/About";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   let disp=useDispatch();
@@ -32,6 +33,7 @@ function App() {
                     <Route path={'/discount'} element={<Discount/>}/>
                     <Route path={'/about'} element={<About/>}/>
                 </Routes>
+                <Footer/>
             </div>
 
         </BrowserRouter>
