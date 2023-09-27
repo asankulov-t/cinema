@@ -10,7 +10,6 @@ const Header = () => {
             <ul className={style.lists}>
                 <li><Link to="/afisha">Афиша</Link></li>
                 <li><Link to="/repertuar">Сеансы</Link></li>
-                <li><Link to="/soon">Скоро в кино</Link></li>
                 <li><Link to="/discount">Акции и скидки</Link></li>
                 <li><Link to="/about">О кинотеатре</Link></li>
             </ul>
