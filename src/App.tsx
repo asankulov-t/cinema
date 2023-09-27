@@ -28,14 +28,13 @@ function App() {
             <Header/>
             <div className={'container'}>
                 <Routes>
-                    <Route path={'/afisha'&&'/cinema'} element={<Movies token={token+''}/>}/>
+                    <Route path={'/afisha'||'/cinema'} element={<Movies token={token+''}/>}/>
                     <Route path={'/repertuar'} element={<Sessions/>}/>
                     <Route path={'/discount'} element={<Discount/>}/>
                     <Route path={'/about'} element={<About/>}/>
                 </Routes>
                 <Footer/>
             </div>
-
         </BrowserRouter>
     </div>
   );
