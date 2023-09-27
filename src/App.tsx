@@ -9,6 +9,7 @@ import Movies from "./Components/Movies/Movies";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Sessions from "./Components/Sessions/Sessions";
 import Discount from "./Components/Discount/Discount";
+import About from "./Components/About/About";
 
 function App() {
   let disp=useDispatch();
@@ -29,6 +30,7 @@ function App() {
                     <Route path={'/afisha'} element={<Movies token={token+''}/>}/>
                     <Route path={'/repertuar'} element={<Sessions/>}/>
                     <Route path={'/discount'} element={<Discount/>}/>
+                    <Route path={'/about'} element={<About/>}/>
                 </Routes>
             </div>
 

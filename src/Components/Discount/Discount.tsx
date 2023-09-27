@@ -3,7 +3,7 @@ import style from "./Discount.module.css";
 
 const Discount = () => {
     return (
-        <div >
+        <div className={style.discount}>
             <h2 className={style.title}>Волшебный вторник</h2>
             <div className={style.wrapper}>
 

@@ -1,5 +1,8 @@
+.discount{
+    height: 100vh;
+}
 .title{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 22px;
     margin-bottom: 20px;
     color: #192f3a;
