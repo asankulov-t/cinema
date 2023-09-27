@@ -19,12 +19,15 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App ">
         <BrowserRouter>
             <Header/>
-            <Routes>
-                <Route path={'/repertuar'} element={<Movies token={token+''}/>}/>
-            </Routes>
+            <div className={'container'}>
+                <Routes>
+                    <Route path={'/afisha'} element={<Movies token={token+''}/>}/>
+                </Routes>
+            </div>
+
         </BrowserRouter>
     </div>
   );

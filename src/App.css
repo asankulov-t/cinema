@@ -3,3 +3,8 @@
     margin: 0 auto;
     background-color: #ffffff;
 }
+.container{
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}

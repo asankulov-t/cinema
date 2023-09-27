@@ -53,7 +53,8 @@ const MovieItem = (props:movieType) => {
             <div className={props.age==18?styles.red:styles.green}>
                 <span>{props.age}+</span>
             </div>
-            <img className={styles.image} src={'https://api.broadway.kg/files/'+props.picture.fileName+props.picture.fileExt}
+            <img className={styles.image}
+                 src={'https://api.broadway.kg/files/'+props.picture.fileName+props.picture.fileExt}
                  alt=""/>
             <div className={styles.titleWrapper}>
                 <h3>{props.filmName}</h3>
