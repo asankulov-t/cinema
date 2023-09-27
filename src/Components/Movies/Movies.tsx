@@ -24,7 +24,8 @@ const Movies = (props: moviesType) => {
              {
                  // @ts-ignore
                  movies && movies.map((it) => <MovieItem
-                     key={it.filmId} filmId={it.filmId}
+                     key={it.filmId}
+                     filmId={it.filmId}
                      filmName={it.filmName}
                      picture={it.picture}
                      times={it.times}

@@ -11,7 +11,14 @@ const Sessions = () => {
             <h2 className={style.title}>Расписание на сегодня</h2>
             {
                 // @ts-ignore
-               movies&&movies.map((t)=><SessionItem filmId={t.filmId} filmName={t.filmName} age={t.age} picture={t.picture} times={t.times} remark={t.remark}/>
+                movies && movies.map((t) => <SessionItem
+                    key={t.filmId}
+                    filmId={t.filmId}
+                    filmName={t.filmName}
+                    age={t.age}
+                    picture={t.picture}
+                    times={t.times}
+                    remark={t.remark}/>
                 )
             }
         </div>
