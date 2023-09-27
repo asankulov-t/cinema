@@ -1,12 +1,14 @@
-.sessionBlock{
-    margin-top: 20px;
-    display: flex;
 
+.sessionBlock{
+    margin-bottom: 20px;
+    display: flex;
+    padding: 0 20px;
 }
 .sessionBlock img{
     margin-right: 20px;
     height: 400px;
     width: 280px;
+    border-radius: 20px;
 }
 .info{
     width: 70%;
