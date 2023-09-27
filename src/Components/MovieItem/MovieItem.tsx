@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from './MovieItem.module.css'
+import axios from "axios";
 type pictureType={
     id:number,
     fileName:string,
@@ -43,10 +44,12 @@ export type movieType={
     age:number,
     picture:pictureType,
     times:Array<tymesType>,
+    remark?:string,
 }
 
 //https://api.broadway.kg/files/janym.png
 const MovieItem = (props:movieType) => {
+
     return (
     <div>
         <div className={styles.item}>

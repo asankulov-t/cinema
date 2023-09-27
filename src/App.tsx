@@ -7,6 +7,7 @@ import {RootState} from "./Store/Store";
 import Header from "./Components/Header/Header";
 import Movies from "./Components/Movies/Movies";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Sessions from "./Components/Sessions/Sessions";
 
 function App() {
   let disp=useDispatch();
@@ -25,6 +26,7 @@ function App() {
             <div className={'container'}>
                 <Routes>
                     <Route path={'/afisha'} element={<Movies token={token+''}/>}/>
+                    <Route path={'/repertuar'} element={<Sessions/>}/>
                 </Routes>
             </div>
 

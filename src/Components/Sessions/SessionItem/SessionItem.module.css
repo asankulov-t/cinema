@@ -1,0 +1,32 @@
+.sessionBlock{
+    margin-top: 20px;
+    display: flex;
+
+}
+.sessionBlock img{
+    margin-right: 20px;
+    height: 400px;
+    width: 280px;
+}
+.info{
+    width: 70%;
+}
+.info h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #414141;
+}
+.info p{
+    font-size: 20px;
+    color: #414141;
+    margin-bottom: 20px;
+
+}
+.timeWrapper{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 30px;
+    border: #5a2cb4 2px solid;
+    color:#5a2cb4;
+    border-radius: 20px;
+}
