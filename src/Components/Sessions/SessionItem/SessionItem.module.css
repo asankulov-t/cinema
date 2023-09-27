@@ -18,17 +18,31 @@
     font-weight: bold;
     color: #414141;
 }
+.info h4{
+    color: #414141;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 .info p{
     font-size: 20px;
     color: #414141;
     margin-bottom: 20px;
-
 }
 .timeWrapper{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
     padding: 5px 30px;
-    border: #5a2cb4 2px solid;
-    color:#5a2cb4;
+    border: #7735c5 3px solid;
+    color: #7735c5;
     border-radius: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.times{
+    margin-bottom: 15px;
+}
+.sessions{
+    display: flex;
+    flex-wrap: wrap;
 }

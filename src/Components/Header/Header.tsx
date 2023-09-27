@@ -4,9 +4,9 @@ import {Link} from "react-router-dom";
 const Header = () => {
     return (
         <header className={style.header}>
-            <a href="#">
+            <Link to="/afisha">
                 <img className={style.logo} src="https://broadway.kg/image/logo.gif" alt="logo"/>
-            </a>
+            </Link>
             <ul className={style.lists}>
                 <li><Link to="/afisha">Афиша</Link></li>
                 <li><Link to="/repertuar">Сеансы</Link></li>

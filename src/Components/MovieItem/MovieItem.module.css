@@ -33,22 +33,26 @@
 }
 .image{
     border-radius: 20px;
-    height: 400px;
-    width: 290px;
+    height: 380px;
+    width: 265px;
 }
 .titleWrapper{
     align-items: center;
     text-align: center;
     position: absolute;
     z-index: 1;
-    bottom:0px;
-    width: 290px;
+    bottom:1px;
+    width: 265px;
     height: 70px;
     background-color: #5b0303;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 .titleWrapper h3{
+    margin: 0 auto;
     margin-top: 17px;
-    font-size: 20px;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
 }

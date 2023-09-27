@@ -60,7 +60,7 @@ const MovieItem = (props:movieType) => {
                  src={'https://api.broadway.kg/files/'+props.picture.fileName+props.picture.fileExt}
                  alt=""/>
             <div className={styles.titleWrapper}>
-                <h3>{props.filmName}</h3>
+                <h3>{props.filmName.slice(0,30)}</h3>
             </div>
             {/*<div>{props.times.map((t)=><div>*/}
             {/*    <p>{t.time}</p>*/}
