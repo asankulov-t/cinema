@@ -9,10 +9,10 @@ const Header = () => {
                     <img className={style.logo} src="https://broadway.kg/image/logo.gif" alt="logo"/>
                 </Link>
                     <div className={'right menu '+style.lists}>
-                        <Link className='ui item' to="/afisha">Афиша</Link>
-                        <Link className='ui item' to="/repertuar">Сеансы</Link>
-                        <Link className='ui item' to="/discount">Акции и скидки</Link>
-                        <Link className='ui item' to="/about">О кинотеатре</Link>
+                        <Link className='ui item' to="/afisha"><i className={'bullhorn icon'}></i>Афиша</Link>
+                        <Link className='ui item' to="/repertuar"><i className="film icon"></i>Сеансы</Link>
+                        <Link className='ui item' to="/discount"><i className="microphone icon"></i>Акции и скидки</Link>
+                        <Link className='ui item' to="/about"><i className="rss icon"></i>О кинотеатре</Link>
                     </div>
 
             </div>
