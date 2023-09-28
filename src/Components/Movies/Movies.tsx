@@ -4,6 +4,7 @@ import {RootState} from "../../Store/Store";
 import {fetchData} from "../../Store/GetMoviesSlice";
 import MovieItem from "../MovieItem/MovieItem";
 import style from './Movies.module.css'
+import {Col, Row} from "react-bootstrap";
 
 type moviesType = {
     token: string
@@ -17,21 +18,23 @@ const Movies = (props: moviesType) => {
         disp(fetchData(props.token && props.token))
     }, [props.token])
     return (
-     <div className={style.container}>
+     <div>
          <h3 className={'title'}>Афиша</h3>
-         <div className={style.movies}>
+         <Row >
              {
                  // @ts-ignore
-                 movies && movies.map((it) => <MovieItem
-                     key={it.filmId}
-                     filmId={it.filmId}
-                     filmName={it.filmName}
-                     picture={it.picture}
-                     times={it.times}
-                    age={it.age}
+                 movies && movies.map((it) => <Col >
+                     <MovieItem
+                         key={it.filmId}
+                         filmId={it.filmId}
+                         filmName={it.filmName}
+                         picture={it.picture}
+                         times={it.times}
+                         age={it.age}
 
-                 />)}
-         </div>
+                     />
+                 </Col>)}
+         </Row>
      </div>
     );
 }

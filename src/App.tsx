@@ -11,6 +11,7 @@ import Discount from "./Components/Discount/Discount";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import 'semantic-ui-css/semantic.min.css'
+import {Container} from "react-bootstrap";
 
 
 function App() {
@@ -27,18 +28,21 @@ function App() {
     <div className="App ">
         <BrowserRouter>
             <Header/>
-            <div className={'ui grid container'}>
-
+            <Container>
                 <Routes>
                     <Route path={'/afisha'||'/cinema'} element={<Movies token={token+''}/>}/>
                     <Route path={'/repertuar'} element={<Sessions/>}/>
                     <Route path={'/discount'} element={<Discount/>}/>
                     <Route path={'/about'} element={<About/>}/>
                 </Routes>
-            </div>
-            <div className={'ui container'}>
                 <Footer/>
-            </div>
+            </Container>
+
+
+
+
+
+
         </BrowserRouter>
     </div>
   );
