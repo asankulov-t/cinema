@@ -19,7 +19,7 @@ const Movies = (props: moviesType) => {
     console.log(movies)
     return (
      <div className={style.container}>
-         <h2 className={style.title}>Афиша</h2>
+         <h3 >Афиша</h3>
          <div className={style.movies}>
              {
                  // @ts-ignore
