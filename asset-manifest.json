@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cinema/static/css/main.5191191e.css",
+    "main.css": "/cinema/static/css/main.362f5e49.css",
     "main.js": "/cinema/static/js/main.943688c9.js",
     "static/js/787.fa79b8c8.chunk.js": "/cinema/static/js/787.fa79b8c8.chunk.js",
     "static/media/brand-icons.svg": "/cinema/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -20,12 +20,12 @@
     "static/media/outline-icons.woff": "/cinema/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/cinema/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/cinema/index.html",
-    "main.5191191e.css.map": "/cinema/static/css/main.5191191e.css.map",
+    "main.362f5e49.css.map": "/cinema/static/css/main.362f5e49.css.map",
     "main.943688c9.js.map": "/cinema/static/js/main.943688c9.js.map",
     "787.fa79b8c8.chunk.js.map": "/cinema/static/js/787.fa79b8c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5191191e.css",
+    "static/css/main.362f5e49.css",
     "static/js/main.943688c9.js"
   ]
 }
