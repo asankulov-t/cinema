@@ -52,51 +52,50 @@
     .sessionBlock{
         margin-bottom: 20px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction:row;
         padding:3px
     }
     .sessionBlock img{
-        height: 400px;
-        width: 280px;
+        height: 260px;
+        width: 150px;
         border-radius: 20px;
     }
     .info{
-        width: 70%;
+        width: 60%;
     }
     .info h3{
-        font-size: 20px;
+        font-size: 17px;
         font-weight: bold;
         color: #414141;
         margin-bottom: 5px;
     }
     .info h4{
         color: #414141;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: bold;
         margin-bottom: 10px;
         margin-top: 3px;
     }
     .info p{
-        font-size: 15px;
+        font-size: 12px;
         color: #414141;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     .timeWrapper{
         cursor: pointer;
-        font-size: 15px;
-        padding: 3px 10px;
-        border: #7735c5 3px solid;
+        font-size: 13px;
+        padding: 3px 8px;
+        border: #7735c5 2px solid;
         color: #7735c5;
         border-radius: 20px;
         margin-right: 5px;
         font-weight: bold;
     }
     .times{
-        margin-bottom: 15px;
+        margin-bottom: 8px;
     }
     .sessions{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
     }
 }

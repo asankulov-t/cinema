@@ -11,3 +11,24 @@
     margin-left: 20px;
     font-weight: bold;
 }
+@media (max-width: 480px) {
+    .discount{
+        height: 100vh;
+    }
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        padding:10px 20px;
+    }
+    .wrapper img{
+        width:100%
+    }
+    .wrapper p{
+        color: #414141;
+        font-size: 15px;
+        margin-left: 5px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
