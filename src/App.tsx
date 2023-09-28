@@ -28,7 +28,7 @@ function App() {
     <div className="App ">
         <BrowserRouter>
             <Header/>
-            <Container>
+            <Container >
                 <Routes>
                     <Route path={'/afisha'||'/cinema'} element={<Movies token={token+''}/>}/>
                     <Route path={'/repertuar'} element={<Sessions/>}/>

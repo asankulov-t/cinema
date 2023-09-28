@@ -53,15 +53,15 @@
         margin-bottom: 20px;
         display: flex;
         flex-direction:row;
-        padding:3px
+        padding:2px
     }
     .sessionBlock img{
-        height: 320px;
-        width: 200px;
+        height: 270px;
+        width: 160px;
         border-radius: 20px;
     }
     .info{
-        width: 55%;
+        width: 40%;
     }
     .info h3{
         font-size: 17px;

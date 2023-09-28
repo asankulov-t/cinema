@@ -3,7 +3,6 @@ import {useDispatch, useSelector} from "react-redux";
 import {RootState} from "../../Store/Store";
 import {fetchData} from "../../Store/GetMoviesSlice";
 import MovieItem from "../MovieItem/MovieItem";
-import style from './Movies.module.css'
 import {Col, Row} from "react-bootstrap";
 
 type moviesType = {
