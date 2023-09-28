@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Footer.module.css'
 const Footer = () => {
     return (
-        <div className={style.footer}>
+        <div className={style.footer+" ui grid"}>
             <div>
                 <h5>Социальные сети</h5>
                 <div className={style.network}>

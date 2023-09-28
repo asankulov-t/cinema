@@ -1,16 +1,13 @@
 .App{
     width: 100%;
     margin: 0 auto;
+    background-color: #5b0303;
 
 }
 .container{
     background-color: white;
-    width:78%;
-    align-items: center;
-    margin: 0 auto;
-    padding: 3px 0;
 }
-h3{
+.title{
     margin-top: 20px;
     margin-left: 22px;
     margin-bottom: 20px;

@@ -16,10 +16,9 @@ const Movies = (props: moviesType) => {
         // @ts-ignore
         disp(fetchData(props.token && props.token))
     }, [props.token])
-    console.log(movies)
     return (
      <div className={style.container}>
-         <h3 >Афиша</h3>
+         <h3 className={'title'}>Афиша</h3>
          <div className={style.movies}>
              {
                  // @ts-ignore

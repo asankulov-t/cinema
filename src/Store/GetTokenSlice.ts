@@ -8,7 +8,7 @@ export const fetchToken=createAsyncThunk('token/get', async (thunkAPI)=>{
 })
 
 
-export const getTokenSlice=createSlice({
+ const getTokenSlice=createSlice({
     name:'token',
     initialState:'',
     reducers:{
