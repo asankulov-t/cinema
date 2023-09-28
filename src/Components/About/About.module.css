@@ -15,3 +15,22 @@
     width: 45%;
     margin: 10px;
 }
+
+@media (max-width: 480px) {
+    .about p{
+        color: #414141;
+        font-size: 12px;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    .imgs{
+        margin: 20px auto;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imgs img{
+        width: 45%;
+        margin: 10px;
+    }
+}
