@@ -48,7 +48,7 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 770px) {
     .sessionBlock{
         margin-bottom: 20px;
         display: flex;
@@ -56,12 +56,12 @@
         padding:3px
     }
     .sessionBlock img{
-        height: 260px;
-        width: 150px;
+        height: 320px;
+        width: 200px;
         border-radius: 20px;
     }
     .info{
-        width: 60%;
+        width: 55%;
     }
     .info h3{
         font-size: 17px;
