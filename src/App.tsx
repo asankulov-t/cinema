@@ -16,7 +16,8 @@ import {Container} from "react-bootstrap";
 
 function App() {
   let disp=useDispatch();
-  let token=useSelector<RootState>(state => state.rootReducer.token)
+
+    let token=useSelector<RootState>(state => state.rootReducer.token)
 
   useEffect( ()=>{
       // @ts-ignore
@@ -37,12 +38,6 @@ function App() {
                 </Routes>
                 <Footer/>
             </Container>
-
-
-
-
-
-
         </BrowserRouter>
     </div>
   );

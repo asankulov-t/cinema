@@ -7,36 +7,29 @@ let postData=JSON.stringify({
 
 export const APIREQUESTS={
 
-    getToken:async ()=>{
-        const instance = axios.create({
-            baseURL: 'https://api.broadway.kg/api',
+    getMovies(token, date) {
+        return axios({
+            url: `https://api.broadway.kg/api/v1/getMovies?dates=${date}`,
+            method: "GET",
             headers: {
-                Authorization:token.length===0?'':'Bearer '+token,
-                'Access-Control-Allow-Origin':"*",
-                'Accept':'application/json',
-                'Content-Type':'application/json',
+                'Authorization': "Bearer " + token,
+                "Content-Type": "application/json"
             },
-        })
-        let res=await instance.post('/authenticate', postData)
-        return res.data.token
+            data: {}
+        }).then(res => res.data.response)
     },
-
-    getContent:async (token:string)=>{
-        const instance = axios.create({
-            baseURL: 'https://api.broadway.kg/api',
-            headers: {
-                Authorization:token.length===0?'':'Bearer '+token,
-                'Access-Control-Allow-Origin':"*",
-                'Accept':'application/json',
-                'Content-Type':'application/json',
-            },
+    getToken(date) {
+        let postData = JSON.stringify({
+            email: "broadmob$dwaysR4admin@gmail.com",
+            password: "__2%W,,MPzkqCE8*"
         })
-        let today=new Date().toLocaleDateString('ro-Ro')
-        let days=[today,today]
-        let dates={
-            dates:[days[0],days[1]]
+        const config = {
+            headers: {
+
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            }
         }
-        let res= await instance.post('v1/getMovies',dates)
-        return res.data.response
+        return axios.post('https://api.broadway.kg/api/authenticate', postData, config).then(res => res.data.token)
     },
 }
