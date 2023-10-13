@@ -7,7 +7,6 @@ const Sessions = () => {
     let movies = useSelector<RootState>(state => state.rootReducer.movies)
     return (
         <div>
-            <h3 >Расписание на сегодня</h3>
             {
                 // @ts-ignore
                 movies && movies.map((t) => <SessionItem

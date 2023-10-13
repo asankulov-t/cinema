@@ -2,8 +2,9 @@
 .about p{
     color: #414141;
     font-size: 18px;
-    margin-left: 20px;
     font-weight: bold;
+    margin-left: 22px !important;
+
 }
 .imgs{
     margin: 20px auto;

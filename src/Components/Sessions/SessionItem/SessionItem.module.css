@@ -19,7 +19,7 @@
     font-weight: bold;
     color: #414141;
 }
-.info h4{
+.info h5{
     color: #414141;
     font-size: 20px;
     font-weight: bold;
@@ -33,15 +33,15 @@
 .timeWrapper{
     cursor: pointer;
     font-size: 25px;
-    padding: 5px 30px;
-    border: #7735c5 3px solid;
-    color: #7735c5;
+    padding: 5px 20px;
+    background-color: #5b0303;
+    color: #ffffff;
     border-radius: 20px;
     margin-right: 10px;
     font-weight: bold;
 }
 .times{
-    margin-bottom: 15px;
+    margin-bottom: 28px;
 }
 .sessions{
     display: flex;

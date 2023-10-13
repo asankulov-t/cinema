@@ -18,12 +18,11 @@ const Movies = (props: moviesType) => {
     }, [props.token])
     return (
      <div>
-         <h3 className={'title'}>Афиша</h3>
-         <Row >
+
              {
                  // @ts-ignore
-                 movies && movies.map((it) => <Col >
-                     <MovieItem
+                 movies && movies.map((it) => <MovieItem
+                 duration={it.duration}
                          key={it.filmId}
                          filmId={it.filmId}
                          filmName={it.filmName}
@@ -32,8 +31,8 @@ const Movies = (props: moviesType) => {
                          age={it.age}
 
                      />
-                 </Col>)}
-         </Row>
+                 )}
+
      </div>
     );
 }

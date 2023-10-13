@@ -10,7 +10,7 @@ const SessionItem = (props:movieType) => {
             <div className={style.info}>
                 <h3>{props.filmName}</h3>
                 <p>{props.remark}</p>
-                <h4>Сеансы:</h4>
+                <h5>Сеансы:</h5>
                 <div className={style.sessions}>
                     {props.times.map((t)=><div key={t.time} className={style.times} >
                         <span className={style.timeWrapper}>{t.time}</span>

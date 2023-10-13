@@ -1,6 +1,6 @@
-import { Message } from 'primereact/message';
 import React from 'react';
 import {useSelector} from "react-redux";
+import { Message } from 'semantic-ui-react';
 import {RootState} from "../Store/Store";
 
 const ErrorHandler = () => {

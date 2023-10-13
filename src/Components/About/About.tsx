@@ -2,8 +2,7 @@ import React from 'react';
 import style from './About.module.css'
 const About = () => {
     return (
-        <div >
-            <h3 >О кинотеатре</h3>
+        <div className={style.about}>
             <p>
                 КИНОТЕАТР «Broadway» - один из самых больших кинокомплексов Кыргызстана! Новый, современный кинотеатр, 7
                 кинозалами, рассчитанный на 805 мест, также вы можете насладиться первым VIP залом отличающимся своей

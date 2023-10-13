@@ -2,11 +2,13 @@ import {combineReducers, configureStore} from "@reduxjs/toolkit";
 import {getMoviesSlice, moviesSlice} from "./GetMoviesSlice";
 import {tokenSlice} from "./GetTokenSlice";
 import {statusReducer} from "./ApiStatusReducer";
+import {titleReducer} from "./TitleReducer";
 
 const rootReducer=combineReducers({
     movies:moviesSlice,
     token:tokenSlice,
-    status:statusReducer
+    status:statusReducer,
+    titleReducers:titleReducer
 })
 export const store=configureStore({
     reducer:{

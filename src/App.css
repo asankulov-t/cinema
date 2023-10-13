@@ -6,12 +6,31 @@
 }
 .container{
     background-color: white;
+    padding: 0;
 }
-h3{
-    margin-top: 40px;
-    margin-left: 22px;
-    margin-bottom: 20px;
-    color: #192f3a;
-    font-size: 35px;
+h4{
+    padding-top: 25px !important;
+    margin-left: 22px !important;
+    padding-bottom: 25px !important;
+    font-size: 35px !important;
+    text-transform: uppercase;
+    color: #135d8c;
     font-weight: bold;
 }
+@media (max-width: 770px) {
+    .App{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fafafa;
+    }
+    h4{
+        margin-left: 17px !important;
+        padding-top: 10px !important;
+        padding-bottom: 7px !important;
+        font-size: 22px !important;
+        text-transform: uppercase;
+        color: #135d8c;
+        font-weight: bold;
+    }
+}
+
